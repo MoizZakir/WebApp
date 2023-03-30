@@ -1,0 +1,48 @@
+div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#MyTable{
+
+  border: solid 2px rgb(15, 13, 13);
+  width: 100%;
+}
+
+input[type="number"] {
+  padding: 8px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 300px;
+}
+th{
+  
+  border: solid 1px black;
+  background-color: lightgray;
+}
+td{
+
+  border: solid 1px black;
+}
+button {
+  background-color: #4caf50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #3e8e41;
+}
+
+button:active {
+  background-color: #3e8e41;
+  transform: translateY(9px);
+}
